@@ -1,0 +1,60 @@
+@media only screen and (max-width: 1200px){
+
+    /* HEADER */
+
+    header{
+        align-items: center;
+        justify-content: start;
+        width: 100vw;
+        height: 5vh;
+    }    
+    
+    header ul{
+        width: 100%;
+        font-family: "Montserrat", sans-serif;
+        margin-left: 0;
+        justify-content: center;
+    }
+    
+    header ul li{
+        margin-left: 2%;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    
+    .container{
+        flex-direction: column-reverse;
+    }
+
+    /* MAIN */
+
+    .princ{
+        width: 100%;
+        
+    }
+    
+    .boxImg{
+        width: 100%;
+    }
+    
+    .boxImg img{
+        width: 60%;
+    }
+    
+    .headerM h1{
+        font-size: 1.8rem;
+    }    
+
+    .subH{
+        font-size: 1rem;
+        margin-top: 4vh;
+    }
+
+    .socialM h1{
+        font-family: "Krona One", sans-serif;
+        font-size: 1.3rem;
+        font-weight: 400;
+        margin-top: 5vh;
+    }
+
+    }
